@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DRS - بهترین ریسورس پک‌های افزایش FPS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazir&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      min-height: 100vh;
+      background: linear-gradient(-45deg, #000000, #222222, #444444, #000000);
+      background-size: 400% 400%;
+      animation: gradientBG 20s ease infinite;
+      font-family: 'Vazir', sans-serif;
+      color: #ddd;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: center;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    @keyframes glowRed {
+      0%, 100% {
+        text-shadow: 0 0 5px #ff4d4d, 0 0 10px #ff1a1a, 0 0 20px #e60000, 0 0 30px #b30000, 0 0 40px #800000;
+      }
+      50% {
+        text-shadow: 0 0 10px #ff6666, 0 0 20px #ff3333, 0 0 30px #cc0000, 0 0 40px #990000, 0 0 50px #660000;
+      }
+    }
+
+    @keyframes shake {
+      0% { transform: translate(0, 0) rotate(0deg); }
+      10% { transform: translate(-2px, -2px) rotate(-2deg); }
+      20% { transform: translate(2px, -2px) rotate(2deg); }
+      30% { transform: translate(-2px, 2px) rotate(-2deg); }
+      40% { transform: translate(2px, 2px) rotate(2deg); }
+      50% { transform: translate(-1px, -1px) rotate(-1deg); }
+      60% { transform: translate(1px, 1px) rotate(1deg); }
+      70% { transform: translate(-1px, 1px) rotate(-1deg); }
+      80% { transform: translate(1px, -1px) rotate(1deg); }
+      90% { transform: translate(0, 0) rotate(0deg); }
+      100% { transform: translate(0, 0) rotate(0deg); }
+    }
+
+    h1 {
+      font-size: 5em;
+      margin: 0.3em 0 0.4em 0;
+      font-weight: 900;
+      color: #ff3d3d;
+      animation: glowRed 3s ease-in-out infinite alternate, shake 0.8s ease-in-out infinite;
+      user-select: none;
+      text-shadow: 0 0 10px #ff0000, 0 0 30px #cc0000, 0 0 50px #990000;
+    }
+
+    p.lead {
+      font-size: 1.8em;
+      max-width: 700px;
+      margin: 0 auto 1.5em;
+      line-height: 1.4;
+      font-weight: 600;
+      color: #a0ffa0;
+      text-shadow: 0 0 5px #004400, 0 0 10px #002200;
+    }
+
+    a.download-btn {
+      background: linear-gradient(45deg, #00ff00, #ffffff);
+      color: #000;
+      font-weight: 700;
+      font-size: 1.5em;
+      padding: 18px 45px;
+      border-radius: 60px;
+      text-decoration: none;
+      box-shadow: 0 0 10px #00ff00, 0 0 25px #00ff00, 0 0 40px #00ff00;
+      transition: all 0.3s ease;
+      display: inline-block;
+      margin-bottom: 50px;
+      user-select: none;
+      animation: shake 1.5s ease-in-out infinite;
+    }
+
+    a.download-btn:hover {
+      background: linear-gradient(45deg, #ffffff, #00cc00);
+      color: #fff;
+      box-shadow: 0 0 15px #00cc00, 0 0 30px #00cc00, 0 0 50px #00cc00;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎮 DRS</h1>
+  <p class="lead">
+    به وب‌سایت رسمی ریسورس پک <strong>DRS</strong> خوش آمدید! این پک مخصوص افزایش FPS و بهینه‌سازی تجربه Bedwars در Minecraft طراحی شده است.
+  </p>
+
+  <a href="https://amirdar.github.io/دی-آر-اس/drs-pack.zip" target="_blank" class="download-btn" rel="noopener noreferrer">
+    دانلود مستقیم ریسورس پک DRS
+  </a>
+
+</body>
+</html>
